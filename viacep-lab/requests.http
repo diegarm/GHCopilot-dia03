@@ -9,5 +9,8 @@ GET {{host}}/enderecos/123
 ### CEP inexistente
 GET {{host}}/enderecos/99999999
 
-### Historico de consultas (sem paginacao hoje)
+### Historico de consultas, primeira pagina
 GET {{host}}/consultas
+
+### Historico de consultas, segunda pagina com 15 itens
+GET {{host}}/consultas?pagina=2&tamanho=15

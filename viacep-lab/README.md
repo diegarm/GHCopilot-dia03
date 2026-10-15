@@ -18,7 +18,7 @@ A API sobe em `http://localhost:8000`. Em desenvolvimento o histórico já vem p
 | Método | Rota | Descrição |
 |---|---|---|
 | GET | `/enderecos/{cep}` | Consulta um CEP no ViaCEP |
-| GET | `/consultas` | Histórico de consultas já realizadas |
+| GET | `/consultas` | Histórico de consultas já realizadas, com paginação via `pagina` e `tamanho` |
 
 Há um arquivo `requests.http` na raiz com as chamadas prontas para a extensão REST Client.
 
